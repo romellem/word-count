@@ -7,7 +7,7 @@ a static method "main()" to kick-off the program.
 const fs = require('fs');
 
 class WordCount {
-  // the constructor takes in the location of the file, os that
+  // the constructor takes in the location of the file, so that
   // later we can easily use this on other files
   constructor(filepath) {
     this.filepath = filepath;
